@@ -8,6 +8,7 @@ int lis(int i){
         return dp[i];
     }
     int ans =1 ;
+    //checking for all the previous elements
     for(int j=0;j<i;j++){
         if(v[j]<v[i]){
             ans=max(ans,lis(j)+1);
@@ -22,6 +23,7 @@ void solve(int t){
         cin>>v[i];
     }
     int ans = 0;
+    //checking for all the elements
     for(int i=0; i<n; i++){
         ans = max(ans,lis(i));
     }
