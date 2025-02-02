@@ -1,0 +1,3 @@
+finding gcd of all elements in an array:
+
+accumulate(v.begin(), v.end(), v[0], gcd<int, int>);
