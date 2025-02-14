@@ -1,3 +1,8 @@
 finding gcd of all elements in an array:
-
 accumulate(v.begin(), v.end(), v[0], gcd<int, int>);
+
+
+### the XOR operation between all elements of even length twice is equal to zero
+### XOR between same number is equal to zero
+
+### longest continious increasing divisors of a number is the x - 1, where x is the smallest number that does not divide [e.g. 1....x]
