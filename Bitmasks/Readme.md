@@ -43,7 +43,7 @@
     Then, z is even if x+y is even
           z is odd if x+y is odd
 
-
+---
 
 ### 4. Alternate of conditional statement:
 
@@ -60,6 +60,8 @@
     x = a ^ b ^ x;
 ```
 
+---
+
 ### 5. Sum of Two Number
  ***Generel Code base***:
  ```cpp
@@ -75,6 +77,8 @@
    sum = (a | b) + (a & b);
 ```
 
+---
+
 ### 6.Finding The Number of Set Bits in an Integer
 ```cpp
 
@@ -82,16 +86,23 @@
     __builtin_popcountll(x); // for long long
 ```
 
+---
+
 ### 7. Toggling i'th  Bit of a Number
 ```cpp
   x = x ^ (1 << i);
 ```
+
+---
 
 ### 8. Check i'th Bit is Set or not
 ```cpp
   if(x & (1 << i)) cout << "Set";
   else cout << "Unset";
 ```
+
+---
+
 
 ### 9. Check a Number is Power of 2 or not
 ```cpp
