@@ -3,7 +3,7 @@
 
 ## Table of Contents:
 - [1. Find Out x % 2^k](#1-find-out-x--2k)
-- [2. Swap Two Numbers](#2-swap-two-numbers)
+- [2. Swaping Two Numbers](#2-swaping-two-numbers)
 - [3. Find Sign Bits of XOR Values](#3-find-sign-bits-of-xor-values)
 - [4. Alternate of conditional statement](#4-alternate-of-conditional-statement)
 - [5. Sum of Two Number](#5-sum-of-two-number)
