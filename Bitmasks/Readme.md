@@ -9,7 +9,7 @@
 
 ---
 
-### 1. Find Out x % 2^k:
+### 1. Find Out `x % 2^k`:
 
   ➡️ `x & ((1<<k) - 1)   or x & (2^k - 1)`
   Basically this takes the sign bits before Kth bit of `x`
@@ -23,7 +23,8 @@
     y = x ^ y
     x = x ^ y 
  ```
-    When we `XOR` the same two number , it wipes out 
+    When we XOR the same two number , it wipes out 
+    
 
 ---
 
@@ -41,14 +42,15 @@
 
 ### 4. Alternate of conditional statement:
 
-  *** Raw statement: ***
+  *** Raw statement ***:
 
     ```cpp
     if(x == a) x = b;
     else if(x == b) x = a;
-    ```
-  *** Bitwise code base: ***
+
+    
+  *** Bitwise code base ***:
 
     ```cpp
     x = a ^ b ^ x;
-    ```
+    
