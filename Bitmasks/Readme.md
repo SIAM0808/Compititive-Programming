@@ -1,3 +1,11 @@
+## Table of Contents:
+- [1. Find Out x % 2^k](#1-find-out-x-mod-2-k)
+- [2. Swap Two Numbers](#2-swap-two-numbers)
+- [3. Count Sign Bits](#3-count-sign-bits)
+- [4. Alternate of conditional statement](#4-alternate-of-conditional-statement)
+
+
+
 ### 1. Find Out x % 2^k:
   -> x & ((1<<k) - 1)   or x & (2^k - 1)
 .......................................Basically this takes the sign bits before Kth bit of x
@@ -24,12 +32,12 @@
 
   *** Raw statement: ***
 
-    ```c++
+    ```cpp
     if(x == a) x = b;
     else if(x == b) x = a;
     ```
   *** Bitwise code base: ***
 
-    ```C++
+    ```cpp
     x = a ^ b ^ x;
     ```
