@@ -42,15 +42,18 @@
 
 ### 4. Alternate of conditional statement:
 
-  *** Raw statement ***:
+  ***Raw statement***:
 
     ```cpp
     if(x == a) x = b;
-    else if(x == b) x = a;
+    else if(x == b) x = a;```
 
-    
-  *** Bitwise code base ***:
+
+  ***Bitwise code base***: 
 
     ```cpp
-    x = a ^ b ^ x;
+    x = a ^ b ^ x;```
     
+    ## Features
+- **User Authentication**: Secure login system for staff members.
+- **Patient Management**:
