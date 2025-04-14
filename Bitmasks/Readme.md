@@ -2,7 +2,7 @@
 
 
 ## Table of Contents:
-- [1. Find Out x % 2^k](#1-find-out-x-mod-2-k)
+- [1. Find Out x % 2^k](#1-find-out-x--2k)
 - [2. Swap Two Numbers](#2-swap-two-numbers)
 - [3. Find Sign Bits of XOR Values](#3-find-sign-bits-of-xor-values)
 - [4. Alternate of conditional statement](#4-alternate-of-conditional-statement)
@@ -14,14 +14,14 @@
 
 ---
 
-### 1. Find Out `x % 2^k`:
+### 1. Find Out `x % 2^k`
 
   ➡️ `x & ((1<<k) - 1)   or x & (2^k - 1)`
   Basically this takes all the sign bits before Kth bit of `x`
 
 ---
 
-### 2. Swaping Two Numbers:
+### 2. Swaping Two Numbers
 
  ```cpp
     x = x ^ y
