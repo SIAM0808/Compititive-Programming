@@ -79,7 +79,7 @@
 
 ---
 
-### 6.Finding The Number of Set Bits in an Integer
+### 6.Finding The Number of `Set` Bits in an Integer
 ```cpp
 
     __builtin_popcount(x); // for int
@@ -88,14 +88,14 @@
 
 ---
 
-### 7. Toggling i'th  Bit of a Number
+### 7. Toggling `i'th`  Bit of a Number
 ```cpp
   x = x ^ (1 << i);
 ```
 
 ---
 
-### 8. Check i'th Bit is Set or not
+### 8. Check `i'th` Bit is Set or not
 ```cpp
   if(x & (1 << i)) cout << "Set";
   else cout << "Unset";
@@ -104,7 +104,7 @@
 ---
 
 
-### 9. Check a Number is Power of 2 or not
+### 9. Check a Number is Power of `2` or not
 ```cpp
    if((n & (n - 1)) == 0) cout << "YES";
    else cout << "NOT";
