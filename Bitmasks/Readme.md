@@ -32,12 +32,12 @@
 
   *** Raw statement: ***
 
-    ```cpp
+    ``` cpp
     if(x == a) x = b;
     else if(x == b) x = a;
     ```
   *** Bitwise code base: ***
 
-    ```cpp
+    ``` cpp
     x = a ^ b ^ x;
     ```
