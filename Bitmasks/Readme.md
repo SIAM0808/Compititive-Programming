@@ -44,18 +44,19 @@
 
   ***Raw statement***:
 
-    ```cpp
+```cpp
     if(x == a) x = b
     else if(x == b) x = a
-    ```
-     ```java
+  
+```java
      connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management_system", "root", "your_password");
      ```
 
   ***Bitwise code base***: 
 
-    ```cpp
-    x = a ^ b ^ x;```
+```cpp
+    x = a ^ b ^ x;
+    
     
     ## Features
 - **User Authentication**: Secure login system for staff members.
