@@ -8,8 +8,8 @@
 - [4. Alternate of conditional statement](#4-alternate-of-conditional-statement)
 - [5. Sum of Two Number](#5-sum-of-=two-number)
 - [6.Finding The Number of Set Bits in an Integer](#6-finding-the-number-of-set-bits-in-an-integer)
-- [7. Toggling i'th  Bit of a Number](#7-toggling-i-th-bit-of-a-number)
-- [8. Check i'th Bit is Set or not](#8-check-i-th-bit-is-a-set-or-not)
+- [7. Toggling i'th Bit of a Number](#7-toggling-ith-bit-of-a-number)
+- [8. Check i'th Bit is Set or not](#8-check-ith-bit-is-set-or-not)
 - [9. Check a Number is Power of 2 or not](#9-check-a-number-is-power-of-2-or-not)
 
 ---
