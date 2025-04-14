@@ -45,9 +45,12 @@
   ***Raw statement***:
 
     ```cpp
-    if(x == a) x = b;
-    else if(x == b) x = a;```
-
+    if(x == a) x = b
+    else if(x == b) x = a
+    ```
+     ```java
+     connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_management_system", "root", "your_password");
+     ```
 
   ***Bitwise code base***: 
 
