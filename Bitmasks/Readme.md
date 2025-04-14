@@ -30,6 +30,6 @@
     ```
   *** Bitwise code base: ***
 
-    ```c++
+    ```C++
     x = a ^ b ^ x;
     ```
