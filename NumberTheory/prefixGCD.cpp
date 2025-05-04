@@ -16,12 +16,12 @@ void Solve()
     vector<int> a(n);
     for(auto &x : a) cin >> x;
     vector<int> prefix(n + 1, 0);
-    vector<int> suffix(n + 1, 0);
+    vector<int> suffix(n + 2, 0);
     for(int i=1; i<=n; i++){
         prefix[i] = __gcd(prefix[i - 1], a[i - 1]);
     }
     for(int i=n; i>=1; i--){
-        suffix[i] = __gcd(suffix[i - 1], a[i - 1]);
+        suffix[i] = __gcd(suffix[i + 1], a[i - 1]);
     }
 
     //queries
